@@ -14,6 +14,10 @@ elif inbetween == "*":
   number = (num1 * num2)
 elif inbetween == "/":
   number = (num1 / num2)
+elif inbetween == "**":
+  number = (num1 ** num2)
+elif inbetween == "//":
+  number = (num1 // num2)
 else:
   print("Invalid calculation")
 
