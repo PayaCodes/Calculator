@@ -21,4 +21,5 @@ elif inbetween == "//":
 else:
   print("Invalid calculation")
 
+print(f"The calculation is {num1} {inbetween} {num2}")
 print(f"The answer is : {number}")
