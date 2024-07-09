@@ -3,8 +3,8 @@ inbetween = input("Enter an operator: ")
 num2 = input("Enter another Number: ")
 number = 0
 
-num1 = int(num1)
-num2 = int(num2)
+num1 = float(num1)
+num2 = float(num2)
 
 if inbetween == "+":
   number = (num1 + num2)
